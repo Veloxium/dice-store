@@ -278,7 +278,7 @@ const Landing = () => {
               className="w-full h-full object-contain lg:w-4/5"
             />
             <p className="text-xs py-1 px-2 bg-white mt-2 rounded-full text-center lg:text-2xl lg:py-2 lg:px-10">
-              Wmns Air Jordan 1 Mid
+              Air Jordan 1 Mid
             </p>
           </div>
         </div>
