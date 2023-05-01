@@ -80,7 +80,7 @@ const Landing = () => {
               <h3 className="text-xl lg:text-4xl font-bold text-white">
                 Adidas
               </h3>
-              <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg">
+              <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg hidden lg:flex">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Maiores, eaque.
               </h5>
@@ -100,7 +100,7 @@ const Landing = () => {
               <h3 className="text-xl lg:text-4xl font-bold text-white">
                 Converse
               </h3>
-              <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg">
+              <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg hidden lg:flex">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Maiores, eaque.
               </h5>
@@ -128,11 +128,11 @@ const Landing = () => {
                 <img src={Jordan} alt="" />
               </div>
             </div>
-            <p className="z-10 text-white text-center text-sm">
+            <p className="z-10 text-white text-center text-sm ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consectetur, eum.
             </p>
-            <div className="z-10 mt-4 w-1/4 mb-6 lg:mb-0">
+            <div className="z-10 lg:mt-4 mt-2 w-1/4 mb-6 lg:mb-0">
               <ButtonOnly text="Browse" />
             </div>
           </div>
@@ -144,7 +144,7 @@ const Landing = () => {
                 <img src={Puma} alt="" />
               </div>
               <h3 className="text-xl lg:text-4xl font-bold text-white">Puma</h3>
-              <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg">
+              <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg hidden lg:flex">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Maiores, eaque.
               </h5>
@@ -164,7 +164,7 @@ const Landing = () => {
               <h3 className="text-xl lg:text-4xl font-bold text-white">
                 Converse
               </h3>
-              <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg">
+              <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg hidden lg:flex">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Maiores, eaque.
               </h5>
@@ -282,7 +282,7 @@ const Landing = () => {
             </p>
           </div>
         </div>
-        <div className="inline-flex justify-end">
+        <div className="inline-flex justify-end items-center">
           <ButtonOnly
             text="See All Product"
             icon={

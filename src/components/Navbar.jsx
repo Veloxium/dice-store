@@ -119,7 +119,7 @@ const Navbar = () => {
         }
       >
         <div className="fixed w-full z-30 menu">
-          <div className="flex pt-[80px] gap-4 font-semibold items-center text-center flex-col primary h-screen">
+          <div className="flex pt-[100px] gap-4 font-semibold items-center text-center flex-col primary h-screen">
             <NavLink to="/" onClick={active}>
               <h3 className="text-lg">HOME</h3>
             </NavLink>
