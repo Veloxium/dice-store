@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* .primary{
+    background-color: #02C39A;
+} */
+.primary{
+    background: linear-gradient(135deg, rgba(2,195,154,1) 37%, rgba(152,255,233,1) 100%);
+}
+.secondary-only{
+    background-color: #05668D;
+}
+.secondary{
+    background-color: #05668D;
+}
+.secondary:hover{
+    background-color: #F0F3BD;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+.text-secondary{
+    color: #05668D;
+}
+.bg-btn{
+    background-color: #05668D;
+    color: white;
+}
+.bg-btn:hover{
+    background-color: #F0F3BD;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+.bg-btn-rvrs{
+    background-color: #F0F3BD;
+    color: black;
+}
+.bg-btn-rvrs:hover{
+    background-color: #05668D;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+.lup:hover{
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+.menu a:hover{
+    color: white;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+.menu a.active{
+    color: white;
+}
+.bg-custom{
+    background: linear-gradient(187deg, rgba(220,220,220,1) 22%, rgba(238,238,238,1) 76%);
+}
+.banner{
+  top: 40%;
+}
+.text-banner{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 14%, rgba(238,238,238,1) 86%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.adidas{
+    background-color: #FC2947;
+}
+.card:hover img{
+    scale: 1.10;
+    transition: all ease-in-out 300ms;
+}
+.option select option{
+    background-color: #05668D;
+
 }
