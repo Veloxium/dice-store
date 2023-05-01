@@ -3,8 +3,8 @@ import React from 'react'
 const ButtonBuy = () => {
   return (
     <div className="flex flex-row gap-2 items-center cursor-pointer">
-      <div className="bg-btn flex w-full justify-center px-4 py-2 rounded-md lg:w-1/4">
-        <h3 className='text-2xl'>Buy Now</h3>
+      <div className="bg-btn flex w-1/2 justify-center px-4 py-2 rounded-md lg:w-1/4">
+        <h3 className='text-xl lg:text-2xl'>Buy Now</h3>
       </div>
       <div className="bg-btn-rvrs px-2 py-1 rounded-md">
         <svg

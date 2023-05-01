@@ -13,7 +13,7 @@ const Footer = () => {
             laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Asperiores a totam alias accusamus fugiat vitae sequi!
           </h5>
-          <div className="flex flex-row gap-6 mb-6">
+          <div className="flex flex-row gap-6 lg:mb-6 mb-0">
             <a href="none" className="hover:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

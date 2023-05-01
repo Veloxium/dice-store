@@ -282,7 +282,7 @@ const Landing = () => {
             </p>
           </div>
         </div>
-        <div className="inline-flex justify-end items-center">
+        <div className="inline-flex justify-end items-center lg:mb-10 lg:justify-center">
           <ButtonOnly
             text="See All Product"
             icon={

@@ -17,7 +17,7 @@ const ProductList = () => {
       >
         <div className="flex justify-center flex-col item-center">
           <div className="flex flex-col text-center lg:my-4">
-            <div className="flex justify-center gap-2 items-end">
+            <div className="flex justify-center gap-2 items-center">
               <h2 className="text-2xl font-bold">Product List</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ const ProductList = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="rgb(236 72 153)"
-                className="lg:w-8 lg:h-8 w-6 h-6"
+                className="lg:w-10 lg:h-10 w-8 h-8"
               >
                 <path
                   strokeLinecap="round"
