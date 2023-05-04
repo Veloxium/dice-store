@@ -12,7 +12,7 @@ const Contact = () => {
       <form class="lg:h-[560px] px-10 primary lg:rounded-xl lg:mt-24 py-4 pt-10 lg:pt-0">
         <div class="mb-4">
           <label
-            class="block text-white text-sm sm:text-lg font-bold mb-2"
+            class="block text-white text-sm sm:text-lg font-bold mb-2 mt-6"
             for="username"
           >
             Username
