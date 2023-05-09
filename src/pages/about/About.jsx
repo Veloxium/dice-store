@@ -2,6 +2,7 @@ import logo from "../../assets/logo2.png";
 import Maskot from "../../assets/maskot2.png";
 import Nanda from "../../assets/Nanda.jpg"
 import Danu from "../../assets/Danu.jpg"
+import Danu from "../../assets/Gilman.jpg"
 import { useEffect } from "react";
 
 const About = () => {
@@ -80,7 +81,7 @@ const About = () => {
             <div className="flex-col  drop-shadow-md rounded-lg p-4 m-4 items-center flex">
               <img
                 className="w-28 h-28 rounded-full  object-cover"
-                src="https://static.zerochan.net/Tifa.Lockhart.full.2910906.jpg"
+                src={Gilman}
                 alt="gambar"
               />
               <div className="flex flex-col px-5 py-1">
