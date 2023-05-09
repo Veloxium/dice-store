@@ -1,6 +1,7 @@
 import React from "react";
 import Maskot from "../assets/maskot.png";
 import Dice from "../assets/dice.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -70,18 +71,18 @@ const Footer = () => {
             Direct Link
           </h1>
           <div className="gap-4 lg:gap-0 inline-flex justify-between flex-row lg:flex-col lg:mt-4 lg:text-lg text-sm">
-            <a href="/" className="hover:text-white">
+            <Link to="/" className="hover:text-white">
               Home
-            </a>
-            <a href="none" className="hover:text-white">
+            </Link>
+            <Link to="/shop" className="hover:text-white">
               Shop
-            </a>
-            <a href="none" className="hover:text-white">
+            </Link>
+            <Link to="/about" className="hover:text-white">
               About
-            </a>
-            <a href="none" className="hover:text-white">
+            </Link>
+            <Link to="/contact" className="hover:text-white">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-6 pb-4 lg:w-1/5 lg:mt-10 cursor-default">
