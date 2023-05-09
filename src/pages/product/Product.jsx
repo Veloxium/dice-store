@@ -61,23 +61,29 @@ const Product = ({ l, b, f, bt, name, brand, price, desc, discount}) => {
               Excelent
             </h3>
           </div>
-          <h5 className="break-all mt-2">{desc}</h5>
-          <h5 className="break-all mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            sed magni recusandae aliquam nisi fugiat. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Nam amet rerum provident labore
-            expedita recusandae? Id rerum ullam perferendis quos?
+          <h5 className="text-justify mt-2 font-semibold">{desc}</h5>
+          <h5 className="text-justify mt-2">
+            The {name} shoe combines the iconic {brand} design
+            with innovative technology for maximum comfort and incredible
+            style. It features a lightweight mesh upper with no-sew technology
+            to reduce friction and provide all-day comfort. The midsole
+            sole provides quick response and energy return, while the {name}
+            unit in the heel offers additional protection and support. The
+            modern and futuristic shoe design features striking contrasting
+            color details and the iconic {brand} logo on the back and side of the
+            shoe. Available in various sizes and colors, the {name}
+            is the perfect choice for sneakerheads and {brand} fans.
           </h5>
-          <div className="pt-4 flex gap-4 w-full items-center" >
+          <div className="pt-4 flex gap-4 w-full items-center">
             <h3 className="text-center">Choose Size</h3>
             <div className="relative option">
               <select className="p-2 primary text-white w-[120px] border flex justify-center text-center rounded-md shadow-sm outline-none appearance-none focus:border-green-500">
-                <option >39</option>
-                <option >40</option>
-                <option >41</option>
-                <option >42</option>
-                <option >43</option>
-                <option >44</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+                <option>42</option>
+                <option>43</option>
+                <option>44</option>
               </select>
             </div>
           </div>

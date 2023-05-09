@@ -52,8 +52,8 @@ const Landing = () => {
               OG Classic Slip-On LX
             </h2>
             <p className="lg:mt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-              aspernatur.
+              The shoe is designed with a simple and comfortable style, while
+              still looking stylish and suitable for various clothing styles.
             </p>
             <div className="lg:my-4 flex lg:gap-6 gap-1 my-4">
               <div className="p-1 border-black rounded-full border-2 cursor-pointer ">
@@ -81,12 +81,11 @@ const Landing = () => {
                 Adidas
               </h3>
               <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg hidden lg:flex">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, eaque.
+                "Impossible is Nothing" - Adidas
               </h5>
               <div className="flex justify-between items-center">
                 <div className="lg:w-1/2">
-                  <ButtonOnly text="Browse" />
+                  <ButtonOnly text="Browse" to="/shop" />
                 </div>
                 <div className="w-8 lg:w-14">
                   <img src={Brand1} alt="" />
@@ -101,12 +100,11 @@ const Landing = () => {
                 Converse
               </h3>
               <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg hidden lg:flex">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, eaque.
+                "Shoes are boring, wear sneakers" - Converse
               </h5>
               <div className="flex justify-between items-center">
                 <div className="lg:w-1/2">
-                  <ButtonOnly text="Browse" />
+                  <ButtonOnly text="Browse" to="/shop" />
                 </div>
                 <div className="w-8 lg:w-14">
                   <img src={Brand2} alt="" />
@@ -128,12 +126,11 @@ const Landing = () => {
                 <img src={Jordan} alt="" />
               </div>
             </div>
-            <p className="z-10 text-white text-center text-sm ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, eum.
+            <p className="z-10 text-white text-center text-md ">
+              "Become Legendary" - Jordan
             </p>
             <div className="z-10 lg:mt-4 mt-2 w-1/4 mb-6 lg:mb-0">
-              <ButtonOnly text="Browse" />
+              <ButtonOnly text="Browse" to="/shop" />
             </div>
           </div>
         </div>
@@ -145,12 +142,11 @@ const Landing = () => {
               </div>
               <h3 className="text-xl lg:text-4xl font-bold text-white">Puma</h3>
               <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg hidden lg:flex">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, eaque.
+                "Forever Faster" - Puma
               </h5>
               <div className="flex justify-between items-center">
                 <div className="lg:w-1/2">
-                  <ButtonOnly text="Browse" />
+                  <ButtonOnly text="Browse" to="/shop" />
                 </div>
                 <div className="w-8 lg:w-14">
                   <img src={Brand3} alt="" />
@@ -161,16 +157,13 @@ const Landing = () => {
               <div className="h-[100px] lg:h-[140px] flex items-center">
                 <img src={Vans} alt="" />
               </div>
-              <h3 className="text-xl lg:text-4xl font-bold text-white">
-                Converse
-              </h3>
+              <h3 className="text-xl lg:text-4xl font-bold text-white">Vans</h3>
               <h5 className="lg:mt-2 lg:mb-6 mb-2 text-xs lg:text-lg hidden lg:flex">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, eaque.
+                "Just Do It" - Vans
               </h5>
               <div className="flex justify-between items-center">
                 <div className="lg:w-1/2">
-                  <ButtonOnly text="Browse" />
+                  <ButtonOnly text="Browse" to="/shop" />
                 </div>
                 <div className="w-8 lg:w-14">
                   <img src={Brand4} alt="" />
@@ -192,12 +185,11 @@ const Landing = () => {
                 <img src={Nike} alt="" />
               </div>
             </div>
-            <p className="z-10 text-white text-center text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, eum.
+            <p className="z-10 text-white text-center text-md">
+              "Just Do It" - Nike
             </p>
             <div className="z-10 mt-4 w-1/4 mb-6 lg:mb-0">
-              <ButtonOnly text="Browse" />
+              <ButtonOnly text="Browse" to="/shop" />
             </div>
           </div>
         </div>
@@ -220,7 +212,7 @@ const Landing = () => {
                 />
               </svg>
             </div>
-            <p>Lorem ipsum dolor sit adipisicing.</p>
+            <p className="lg:text-xl">Here are some of our best products</p>
           </div>
           <div className="grid grid-cols-3 gap-2 lg:gap-10">
             {bestProducts.slice(0, 6).map((e) => {
@@ -261,10 +253,10 @@ const Landing = () => {
                 Arrivalls
               </h3>
               <h3 className="hidden lg:flex lg:text-xl lg:mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-                placeat?Lorem, ipsum dolor sit amet consectetur adipisicing
-                elit. Culpa, laborum. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. A, fuga?
+                Air Jordan 1 Mid is a stylish and iconic sneaker created by the
+                popular sports brand, Nike. This sneaker is designed with a
+                classic high-top silhouette and features the famous Jumpman logo
+                on the side.
               </h3>
             </div>
             <div className="w-3/4 lg:w-1/2">

@@ -34,7 +34,10 @@ const ProductList = () => {
                 />
               </svg>
             </div>
-            <p>Lorem ipsum dolor sit adipisicing.</p>
+            <p>
+              Discover the ultimate in comfort and durability with our
+              collection of high-quality shoes
+            </p>
           </div>
           <div className="grid grid-cols-3 lg:grid-cols-4 gap-2 lg:gap-4">
             {productList.map((e, index) => {

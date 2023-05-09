@@ -9,9 +9,10 @@ const Footer = () => {
         <div className="mt-6 lg:w-2/5">
           <img src={Dice} alt="" className="w-1/2 lg:w-1/5" />
           <h5 className="my-6 text-sm lg:text-lg cursor-default">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
-            laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Asperiores a totam alias accusamus fugiat vitae sequi!
+            Dice is an e-commerce store that specializes in selling the best
+            shoes from top brands worldwide. By offering a wide range of
+            high-quality shoe options, Dice provides a pleasant and easy
+            shopping experience for customers.
           </h5>
           <div className="flex flex-row gap-6 lg:mb-6 mb-0">
             <a href="none" className="hover:text-white">

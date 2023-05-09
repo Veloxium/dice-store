@@ -34,7 +34,7 @@ const Contact = () => {
             <input
               className="appearance-none block w-full   border rounded py-2 px-3 mb-3 leading-tight focus:outline-none focus:bg-white"
               type="text"
-              placeholder="Danu"
+              placeholder="Your Firstname"
             />
           </div>
           <div className="w-full md:w-1/2 pl-2  md:mb-0">
@@ -47,7 +47,7 @@ const Contact = () => {
             <input
               className="appearance-none block w-full  border rounded py-2 px-3 mb-3 leading-tight focus:outline-none focus:bg-white"
               type="text"
-              placeholder="Haerida"
+              placeholder="Your lastname"
             />
           </div>
         </div>
@@ -106,7 +106,8 @@ const Contact = () => {
           </h1>
         </div>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, sunt.
+          Got questions or feedback? We'd love to hear from you! Contact our
+          customer service team for assistance or to share your thoughts.
         </p>
         <div>
           <div className="mt-4 pb-4 w-1/2 lg:mt-6">
@@ -123,8 +124,8 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className=" pt-6">
-          <h1 className="text-sky-500 text-2xl sm:text-4xl font-bold">
+        <div className=" pt-3">
+          <h1 className="text-sky-500 text-xl lg:text-2xl font-bold">
             Follow us
           </h1>
         </div>
