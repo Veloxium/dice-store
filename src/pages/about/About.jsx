@@ -2,7 +2,7 @@ import logo from "../../assets/logo2.png";
 import Maskot from "../../assets/maskot2.png";
 import Nanda from "../../assets/Nanda.jpg"
 import Danu from "../../assets/Danu.jpg"
-import Danu from "../../assets/Gilman.jpg"
+import Gilman from "../../assets/Gilman.jpeg"
 import { useEffect } from "react";
 
 const About = () => {
@@ -89,7 +89,7 @@ const About = () => {
                   Muhamad Gilman
                 </h4>
                 <p className="mt-1 flex-1 font-light text-sm ">Frontend Dev</p>
-                <p className="mt-1 flex-1 font-light text-sm ">ig : </p>
+                <p className="mt-1 flex-1 font-light text-sm ">ig : -</p>
               </div>
             </div>
           </div>
