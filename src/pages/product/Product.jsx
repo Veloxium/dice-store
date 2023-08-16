@@ -1,13 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ButtonBuy from "../../components/ButtonBuy";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
-const Product = ({ l, b, f, bt, name, brand, price, desc, discount}) => {
-  
-     useEffect(() => {
-       window.scrollTo(0, 0);
-     }, []);
+const Product = ({ l, b, f, bt, name, brand, price, desc, discount }) => {
+  const [quantly, setQuantly] = useState(1);
+
+  function add (){
+    setQuantly(quantly+1);
+  }
+  function min (){
+    if(quantly !== 1){
+      setQuantly(quantly-1);
+    }
+    return
+  }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
@@ -63,15 +74,15 @@ const Product = ({ l, b, f, bt, name, brand, price, desc, discount}) => {
           </div>
           <h5 className="text-justify mt-2 font-semibold">{desc}</h5>
           <h5 className="text-justify mt-2">
-            The {name} shoe combines the iconic {brand} design
-            with innovative technology for maximum comfort and incredible
-            style. It features a lightweight mesh upper with no-sew technology
-            to reduce friction and provide all-day comfort. The midsole
-            sole provides quick response and energy return, while the {name}
+            The {name} shoe combines the iconic {brand} design with innovative
+            technology for maximum comfort and incredible style. It features a
+            lightweight mesh upper with no-sew technology to reduce friction and
+            provide all-day comfort. The midsole sole provides quick response
+            and energy return, while the {name}
             unit in the heel offers additional protection and support. The
             modern and futuristic shoe design features striking contrasting
-            color details and the iconic {brand} logo on the back and side of the
-            shoe. Available in various sizes and colors, the {name}
+            color details and the iconic {brand} logo on the back and side of
+            the shoe. Available in various sizes and colors, the {name}
             is the perfect choice for sneakerheads and {brand} fans.
           </h5>
           <div className="pt-4 flex gap-4 w-full items-center">
@@ -163,7 +174,7 @@ const Product = ({ l, b, f, bt, name, brand, price, desc, discount}) => {
           </div>
           <div className="pt-2  pb-6 flex items-center gap-4">
             <h3 className="text-xl">Quantly</h3>
-            <button className="ml-2 primary px-1 py-1 rounded-full text-white">
+            <button className="ml-2 primary px-1 py-1 rounded-full text-white" onClick={min}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -179,8 +190,8 @@ const Product = ({ l, b, f, bt, name, brand, price, desc, discount}) => {
                 />
               </svg>
             </button>
-            <h3>1</h3>
-            <button className="primary px-1 py-1 rounded-full text-white">
+            <h3 className="w-4 flex justify-center">{quantly}</h3>
+            <button className="primary px-1 py-1 rounded-full text-white" onClick={add}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

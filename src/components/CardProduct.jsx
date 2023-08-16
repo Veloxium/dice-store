@@ -1,20 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { NavLink } from 'react-router-dom';
-
+import { NavLink } from "react-router-dom";
 
 const CardProduct = ({ brand, name, price, url, to }) => {
-      const [isChecked, setIsChecked] = useState(false);
+  const [isChecked, setIsChecked] = useState(false);
 
-      const handleCheckboxChange = () => {
-        setIsChecked(!isChecked);
-      };
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  };
 
   return (
-    <NavLink to={to} className="card mt-6 shadow cursor-pointer hover:shadow-lg transition duration-500 ease-in-out border">
-      <div className="bg-custom h-[100px] lg:h-[400px] overflow-hidden">
-        <img src={url} alt={name} className="w-full h-full object-cover" />
-      </div>
+    <div className="card mt-6 shadow cursor-pointer hover:shadow-lg transition duration-500 ease-in-out border">
+      <NavLink to={to}>
+        <div className="bg-custom h-[100px] lg:h-[400px] overflow-hidden">
+          <img src={url} alt={name} className="w-full h-full object-cover" />
+        </div>
+      </NavLink>
       <div className="mt-1 flex flex-col p-2 lg:p-4">
         <div className="flex justify-between">
           <h5 className="opacity-70 text-xs lg:text-xl">{brand}</h5>
@@ -36,10 +37,12 @@ const CardProduct = ({ brand, name, price, url, to }) => {
             </svg>
           </label>
         </div>
-        <h3 className="text-sm h-[40px] leading-5 lg:text-2xl">{name}</h3>
+        <NavLink to={to}>
+          <h3 className="text-sm h-[40px] leading-5 lg:text-2xl">{name}</h3>
+        </NavLink>
         <h5 className="flex justify-end text-xs lg:text-xl">${price}</h5>
       </div>
-    </NavLink>
+    </div>
   );
 };
 CardProduct.propTypes = {
@@ -47,7 +50,5 @@ CardProduct.propTypes = {
   name: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
 };
- 
-
 
 export default CardProduct;
