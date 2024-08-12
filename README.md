@@ -1,4 +1,4 @@
-# Dice Store - E-Commerce Sepatu
+# Dice Store - Shoes E-Commerce
 
 ![Dice Store](https://github.com/Veloxium/dice-store/assets/111406150/1cf79ad8-7c06-4b81-99cb-ae771a249836)
 ![Detail Store](https://github.com/Veloxium/dice-store/assets/111406150/92a42531-cc70-44fb-a5f4-0b4abfcac460)
